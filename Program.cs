@@ -11,8 +11,7 @@ namespace vitima
         static void Main(string[] args)
         {
             string telefone;
-            int n1;
-            int n2;
+            bool local;
 
             Console.WriteLine("Responda com S ou N:");
             Console.Write("Telefonou para vitima? ");
