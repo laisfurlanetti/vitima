@@ -1,0 +1,7 @@
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\bin\Debug\vitima.exe.config
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\bin\Debug\vitima.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\bin\Debug\vitima.pdb
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\obj\Debug\vitima.csprojAssemblyReference.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\obj\Debug\vitima.csproj.CoreCompileInputs.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\obj\Debug\vitima.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios decisao\vitima\obj\Debug\vitima.pdb
