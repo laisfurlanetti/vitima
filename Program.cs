@@ -11,13 +11,36 @@ namespace vitima
     {
         static void Main(string[] args)
         {
+            int contar = VerificarVitima();
+
+            if (contar == 2)
+            {
+                Console.Write("\n Voce e suspeito");
+            }
+            if (contar == 3 || contar == 4)
+            {
+                Console.Write("\n Voce e cumplice");
+            }
+            if (contar == 5)
+            {
+               Console.Write("\n ASSASSINO");
+            }
+            if (contar < 2)
+            {
+                Console.Write("\n Voce e Inocente");
+            }
+
+            Console.Read();
+        }
+        public static int VerificarVitima()
+        {
             string resposta;
             int contar = 0;
 
             Console.WriteLine("Responda com S ou N:");
             Console.Write("Telefonou para vitima? ");
             resposta = Console.ReadLine();
-            if(resposta == "s")
+            if (resposta == "s")
             {
                 contar++;
             }
@@ -45,26 +68,7 @@ namespace vitima
             {
                 contar++;
             }
-
-
-            if (contar == 2)
-            {
-                Console.Write("Voce e suspeito");
-            }
-            if (contar == 3 || contar == 4)
-            {
-                Console.Write("Voce e cumplice");
-            }
-            if (contar == 5)
-            {
-               Console.Write("ASSASSINO");
-            }
-            if (contar < 2)
-            {
-                Console.Write("Voce e Inocente");
-            }
-
-            Console.Read();
+            return contar;
         }
     }
 }
